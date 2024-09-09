@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/lib/aos.css">
     <link rel="stylesheet" href="assets/css/lib/slick.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
     <link rel="shortcut icon" href="assets/image/bx-plane.png" type="image/x-icon">
     <title>Fly World</title>
 </head>
@@ -24,7 +26,7 @@
                     flyworld@gmail.com
                 </p>
             </div>
-            <div>
+            <div class="header-top-description">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="flex">
@@ -52,7 +54,7 @@
                     <img src="assets/image/plane-vector.svg" alt="">
                 </div>
             </div>
-            <div>
+            <div id="nav-icon-div" class="nav-icon-div">
                 <ul class="nav-icon-list">
                     <li><a id="home-link" class="nav-icon" href="#">Home</a></li>
                     <li><a class="nav-icon" href="#">About Us</a></li>
@@ -62,8 +64,11 @@
                     <li><a class="nav-icon" href="#">Contact Us</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="nav-btn">
                 <button class="primary-btn">View Tours</button>
+            </div>
+            <div class="menu-btn-div">
+                <button id="menu-btn" class="menu-btn"><i class="fa-solid fa-bars"></i></button>
             </div>
         </div>
     </nav>
@@ -75,7 +80,7 @@
 <main>
     <!--banner start-->
     <section class="banner">
-        <div data-aos="fade-up" class="container flex">
+        <div data-aos="fade-up" class="container flex banner-container">
             <div class="banner-image">
                 <img class="banner-image-one" src="assets/image/banner-image.jfif" alt="banner image">
                 <div class="banner-image-top">
@@ -245,13 +250,13 @@
                 <h4 class="perfection-title">Tell us what you want to do</h4>
                 <p class="section-description">Lorem ipsum dolor sit amet, ctetur adipiscing elit</p>
             </div>
-            <!--card-1-->
+            <!--card-2-->
             <div class="perfection-card">
                 <img src="assets/image/Location_perspective_matte_s%201.png" alt="">
                 <h4 class="perfection-title">Share your travel Location</h4>
                 <p class="section-description">Lorem ipsum dolor sit amet, ctetur adipiscing elit</p>
             </div>
-            <!--card-1-->
+            <!--card-3-->
             <div class="perfection-card">
                 <img src="assets/image/Calendar_perspective_matte_s%201.png" alt="">
                 <h4 class="perfection-title">Share your travel preference</h4>

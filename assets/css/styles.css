@@ -36,6 +36,7 @@ a {
 
 .container {
     max-width: 1200px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -73,8 +74,6 @@ a {
 .header-top {
     background-color: var(--primary);
     color: #fff;
-    padding-top: 17px;
-    padding-bottom: 17px;
 }
 
 .envelope {
@@ -122,6 +121,17 @@ nav {
 .active {
     color: var(--secondary);
     transition: 0.100s ease-in-out;
+}
+
+.menu-btn-div {
+    display: none;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: var(--heading2);
+
 }
 
 .banner {
@@ -329,9 +339,8 @@ nav {
 .travel-perfection-card-group {
     margin-top: 50px;
     margin-bottom: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -349,11 +358,9 @@ nav {
     line-height: 30px;
 }
 
-/**/
 .experience-container {
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
     gap: 60px;
     margin-bottom: 130px;
 }
@@ -377,10 +384,6 @@ nav {
     color: var(--secondary);
 }
 
-.experience-image-box {
-    /*width: 50%;*/
-}
-
 .experience-img {
     width: 440px;
     height: 440px;
@@ -391,7 +394,8 @@ nav {
 .package-card-group {
     margin-top: 50px;
     margin-bottom: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -486,9 +490,9 @@ nav {
 .customer-review {
     margin-top: 50px;
     margin-bottom: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    align-items: center;
 }
 
 .review-content {
@@ -650,25 +654,3 @@ nav {
 .btn-submit:hover {
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
