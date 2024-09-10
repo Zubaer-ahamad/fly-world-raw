@@ -125,9 +125,8 @@
     }
 
     .booking-form {
-        max-width: 700px;
+        max-width: 575px;
         gap: 45px;
-        margin: 20px;
     }
 
     .form-submit {
@@ -333,16 +332,13 @@
     }
 
     .booking-form {
-        padding-left: 20px;
-        max-width: 500px;
-        height: 80px;
+        max-width: 315px;
         gap: 15px;
-        margin: 5px;
+        padding-left: 20px;
     }
 
     .form-submit {
         width: 50px;
-        height: 80px;
     }
 
     .destination-btn {
@@ -367,7 +363,6 @@
 
     .card-content {
         bottom: 30px;
-        /*left: 10px;*/
         left: 0;
         right: 0;
         margin: auto;
