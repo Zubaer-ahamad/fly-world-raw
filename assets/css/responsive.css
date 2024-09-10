@@ -114,10 +114,11 @@
 
     .banner-content {
         width: 100%;
+        text-align: center;
     }
 
     .banner-image {
-        width: 100%;
+        width: 70%;
     }
 
     .banner-image-top {
@@ -311,6 +312,7 @@
 
     .banner-content {
         width: 100%;
+        text-align: center;
     }
 
     .banner-image {
