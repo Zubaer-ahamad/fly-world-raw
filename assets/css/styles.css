@@ -294,6 +294,7 @@ nav {
 
 .card-body {
     position: relative;
+    margin-left: 30px;
 }
 
 .card-img {
@@ -458,7 +459,6 @@ nav {
     width: 50%;
 }
 
-/*w-100 h-100 rounded-4 */
 .right-gallery-image {
     width: 100%;
     height: 100%;
@@ -487,12 +487,12 @@ nav {
     margin-bottom: 100px;
 }
 
-.customer-review {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+.review-card{
+    opacity: 30%;
+}
+
+.slick-current {
+    opacity: 100%;
 }
 
 .review-content {
@@ -501,6 +501,7 @@ nav {
     border-radius: 10px;
     box-shadow: 0 0 16px rgba(253, 80, 86, 0.1);
     margin-bottom: 25px;
+    margin-left: 30px;
 }
 
 .review-title {

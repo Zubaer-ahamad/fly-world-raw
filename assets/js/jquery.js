@@ -33,7 +33,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '30px',
+                    centerPadding: '20px',
                     slidesToShow: 2
                 }
             },
@@ -42,7 +42,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '100px',
+                    centerPadding: '50px',
                     slidesToShow: 1
                 }
             },
@@ -51,7 +51,7 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '10px',
+                    centerPadding: '30px',
                     slidesToShow: 1
                 }
             },
@@ -60,7 +60,35 @@ $(document).ready(function () {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '5px',
+                    centerPadding: '0',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('.customer-review').slick({
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 3,
+        prevArrow: '',
+        nextArrow: '',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
                     slidesToShow: 1
                 }
             }
